@@ -1,12 +1,13 @@
 const express = require('express');
 const app = express();
-const hostname = '127.0.0.1'; // Your server ip address
+const hostname = '127.0.0.1'; // Your server ip address in a good
 const port = 3000;
 
 const version = '1.0.0';
 
 app.get('/', (req, res) => {
     // set response content    
+    <h1>It is added</h1>
         res.send(`<html>
                     <body>
                         <h1 style="color:blue;text-align: center;margin-top: 100px;"> [Version ${version}]: This is AMAZING!!! Like & Subscribe!</h1>
